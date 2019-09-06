@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               x:Class="BasePageTest.InheritPage"
+               xmlns:root="clr-namespace:BasePageTest">
+
+    <root:BasePage.BasePageTitleBarLeftContent>
+
+        <Button Text="✔️" TextColor="White"/>
+        <!--<Button Text="🇮🇪" TextColor="Purple"/>
+        <Button Text="🦒" TextColor="Brown"/>-->
+
+    </root:BasePage.BasePageTitleBarLeftContent>
+
+    <root:BasePage.BasePageTitleBarRightContent>
+
+        <Button Text="🇲🇦" TextColor="White"/>
+
+    </root:BasePage.BasePageTitleBarRightContent>
+
+    <root:BasePage.BasePageContent>
+        <StackLayout>
+
+            <Image Source="https://www.gravatar.com/avatar/52fa391374eedcdc0cc2c49c8f523c5a"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="FillAndExpand" />
+
+            <Label Text="More text"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand" />
+
+        </StackLayout>
+
+    </root:BasePage.BasePageContent>
+
+</root:BasePage>
