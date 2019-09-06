@@ -1,0 +1,42 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{B8DE6157-391E-4F6A-9DB5-57805A63001A}|Default">
+  <MonoDevelop.Ide.ItemProperties.TestPrism.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.839B865B-8EDB-4282-BC11-8DC251B6A555" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="TestPrism/MainPage.xaml.cs" Line="21" Column="1" />
+      <File FileName="TestPrism/MainPage.xaml" />
+      <File FileName="TestPrism/App.xaml" />
+      <File FileName="TestPrism/App.xaml.cs" />
+      <File FileName="TestPrism/ViewModels/BaseViewModel.cs" Line="12" Column="74" />
+      <File FileName="TestPrism.iOS/Main.cs" />
+      <File FileName="TestPrism/ViewModels/SecondPageViewModel.cs" />
+      <File FileName="TestPrism/ViewModels/MainPageViewModel.cs" />
+      <File FileName="TestPrism/SecondPage.xaml" />
+      <File FileName="TestPrism/SecondPage.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestPrism" expanded="True">
+            <Node name="TestPrism" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="SdkDependencies" expanded="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="SecondPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TestPrism.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+</Properties>

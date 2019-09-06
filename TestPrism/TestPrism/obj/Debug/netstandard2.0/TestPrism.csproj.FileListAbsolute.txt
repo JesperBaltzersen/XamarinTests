@@ -1,0 +1,13 @@
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/bin/Debug/netstandard2.0/TestPrism.deps.json
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/bin/Debug/netstandard2.0/TestPrism.dll
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/bin/Debug/netstandard2.0/TestPrism.pdb
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/obj/Debug/netstandard2.0/SecondPage.xaml.g.cs
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/obj/Debug/netstandard2.0/TestPrism.csproj.CoreCompileInputs.cache
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/obj/Debug/netstandard2.0/TestPrism.AssemblyInfoInputs.cache
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/obj/Debug/netstandard2.0/TestPrism.AssemblyInfo.cs
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/obj/Debug/netstandard2.0/TestPrism.dll
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/obj/Debug/netstandard2.0/TestPrism.pdb
+/Users/jesperbaltzersen/Projects/TestPrism/TestPrism/obj/Debug/netstandard2.0/TestPrism.csprojAssemblyReference.cache
