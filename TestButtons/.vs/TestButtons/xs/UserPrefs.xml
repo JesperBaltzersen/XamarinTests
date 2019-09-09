@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{A056B036-7133-4476-9E55-E77973C31992}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestButtons/BlobContainer.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestButtons/ObservableObject.cs">
     <Files>
-      <File FileName="TestButtons/GNGenderButton.cs" Line="55" Column="1" />
-      <File FileName="TestButtons/MainPage.xaml.cs" />
-      <File FileName="TestButtons/BaseViewModel.cs" />
-      <File FileName="TestButtons/ObservableObject.cs" />
-      <File FileName="TestButtons/MainPageViewModel.cs" />
-      <File FileName="TestButtons/BlobContainer.xaml.cs" />
+      <File FileName="TestButtons/MainPage.xaml.cs" Line="23" Column="13" />
+      <File FileName="TestButtons/MainPage.xaml" Line="11" Column="138" />
+      <File FileName="TestButtons/BaseViewModel.cs" Line="8" Column="40" />
+      <File FileName="TestButtons/MainPageViewModel.cs" Line="32" Column="1" />
+      <File FileName="TestButtons/BlobContainer.xaml.cs" Line="143" Column="61" />
       <File FileName="TestButtons.iOS/AppDelegate.cs" />
-      <File FileName="TestButtons/MainPage.xaml" />
-      <File FileName="TestButtons/BlobContainer.xaml" Line="26" Column="75" NotebookId="1" />
+      <File FileName="TestButtons/GNGenderButton.cs" Line="55" Column="1" />
+      <File FileName="TestButtons/App.xaml.cs" Line="14" Column="1" />
+      <File FileName="TestButtons/BlobContainer.xaml" Line="27" Column="61" />
+      <File FileName="TestButtons/ObservableObject.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,8 +18,9 @@
           <Node name="TestButtons" expanded="True">
             <Node name="TestButtons" expanded="True">
               <Node name="App.xaml" expanded="True" />
-              <Node name="BlobContainer.xaml" expanded="True" selected="True" />
+              <Node name="BlobContainer.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
+              <Node name="ObservableObject.cs" selected="True" />
             </Node>
             <Node name="TestButtons.iOS" expanded="True" />
           </Node>
@@ -28,16 +30,14 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.TestButtons.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.839B865B-8EDB-4282-BC11-8DC251B6A555" />
+  <MonoDevelop.Ide.ItemProperties.TestButtons.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.438E31D1-0061-418A-A98D-B0C1A29159EE" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/jesperbaltzersen/Projects/XamarinTests/TestButtons/TestButtons/MainPageViewModel.cs" relfile="TestButtons/MainPageViewModel.cs" line="30" column="1" />
-      <Breakpoint file="/Users/jesperbaltzersen/Projects/XamarinTests/TestButtons/TestButtons/MainPage.xaml.cs" relfile="TestButtons/MainPage.xaml.cs" line="34" column="1" />
-      <Breakpoint file="/Users/jesperbaltzersen/Projects/XamarinTests/TestButtons/TestButtons/MainPageViewModel.cs" relfile="TestButtons/MainPageViewModel.cs" line="20" column="1" />
-      <Breakpoint file="/Users/jesperbaltzersen/Projects/XamarinTests/TestButtons/TestButtons/BlobContainer.xaml.cs" relfile="TestButtons/BlobContainer.xaml.cs" line="77" column="1" />
-      <Breakpoint file="/Users/jesperbaltzersen/Projects/XamarinTests/TestButtons/TestButtons/BlobContainer.xaml.cs" relfile="TestButtons/BlobContainer.xaml.cs" line="89" column="1" />
-      <Breakpoint file="/Users/jesperbaltzersen/Projects/XamarinTests/TestButtons/TestButtons/BlobContainer.xaml.cs" relfile="TestButtons/BlobContainer.xaml.cs" line="52" column="1" />
-      <Breakpoint file="/Users/jesperbaltzersen/Projects/XamarinTests/TestButtons/TestButtons/GNGenderButton.cs" relfile="TestButtons/GNGenderButton.cs" line="54" column="1" />
+      <Breakpoint file="/Users/nicolas/Downloads/XamarinTests-master/TestButtons/TestButtons/GNGenderButton.cs" relfile="TestButtons/GNGenderButton.cs" line="55" column="1" />
+      <Breakpoint file="/Users/nicolas/Downloads/XamarinTests-master/TestButtons/TestButtons/BlobContainer.xaml.cs" relfile="TestButtons/BlobContainer.xaml.cs" line="75" column="1" />
+      <Breakpoint file="/Users/nicolas/Downloads/XamarinTests-master/TestButtons/TestButtons/BlobContainer.xaml.cs" relfile="TestButtons/BlobContainer.xaml.cs" line="79" column="1" />
+      <Breakpoint file="/Users/nicolas/Downloads/XamarinTests-master/TestButtons/TestButtons/BlobContainer.xaml.cs" relfile="TestButtons/BlobContainer.xaml.cs" line="87" column="1" />
+      <Breakpoint file="/Users/nicolas/Downloads/XamarinTests-master/TestButtons/TestButtons/BlobContainer.xaml.cs" relfile="TestButtons/BlobContainer.xaml.cs" line="91" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

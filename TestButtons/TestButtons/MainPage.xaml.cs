@@ -18,8 +18,8 @@ namespace TestButtons
         public MainPage()
         {
             InitializeComponent();
-            //BindingContext = new MainPageViewModel();
-            BindingContext = this;
+            BindingContext = new MainPageViewModel();
+            //BindingContext = this;
             blobContainer.OnGenderChanged += BlobContainer_OnGenderChanged;
         }
 

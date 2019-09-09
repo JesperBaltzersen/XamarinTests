@@ -91,8 +91,15 @@ namespace TestButtons
                 Text = GNButtonText
             };
 
+            genderButtonTop.Clicked += GenderButtonTop_Clicked;
+
             Children.Add(genderButtonHalo, 0, 0);
             Children.Add(genderButtonTop, 0, 0);
+        }
+
+        private void GenderButtonTop_Clicked(object sender, EventArgs e)
+        {
+            OnButtonClicked?.Invoke(this, EventArgs.Empty);
         }
 
         private void SwitchSelected(object sender, EventArgs e)

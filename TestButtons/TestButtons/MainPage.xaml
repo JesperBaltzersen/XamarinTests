@@ -8,7 +8,7 @@
              x:Class="TestButtons.MainPage">
 
     <StackLayout>
-        <GN:BlobContainer x:Name="blobContainer" SelectedGender="Neutral" />
+        <GN:BlobContainer x:Name="blobContainer" SelectedGender="{Binding SelectedGender}" GenderChangedCommand="{Binding ButtonCommand}" />
     </StackLayout>
 
 </ContentPage>

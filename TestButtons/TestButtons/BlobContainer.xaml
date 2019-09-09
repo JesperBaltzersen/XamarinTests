@@ -2,7 +2,8 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TestButtons.BlobContainer"
-             xmlns:GN="clr-namespace:TestButtons">
+             xmlns:GN="clr-namespace:TestButtons"
+             x:Name="this">
 
     <Grid RowSpacing="0">
 
@@ -22,18 +23,21 @@
                            Grid.Column="0"
                            TranslationX="6"
                            TranslationY="5"
-                           GNButtonText="female"
+                           GNButtonText="Male"
                            GenderButtonClicked="{Binding MaleButtonCommand}"
-                           IsSelected="{Binding MaleSelected}" />
-
+                           IsSelected="{Binding MaleSelected}"
+                           BindingContext="{x:Reference this}"
+                         />
         <GN:GNGenderButton x:Name="femaleGenderButton"
                            Grid.Row="1"
                            Grid.Column="1"
                            TranslationX="-6"
                            TranslationY="-5"
                            IsVisible="true"
-                           GNButtonText="Male"
+                           GNButtonText="Female"
                            GenderButtonClicked="{Binding FemaleButtonCommand}"
-                           IsSelected="{Binding FemaleSelected}" />
+                           IsSelected="{Binding FemaleSelected}"
+                           BindingContext="{x:Reference this}"
+                           />
     </Grid>
 </ContentView>

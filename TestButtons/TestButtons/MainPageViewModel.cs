@@ -12,12 +12,14 @@ namespace TestButtons
         {
         }
 
+        public Gender SelectedGender { get; set; } = Gender.Male;
+
         private ICommand _buttonCommand;
         public ICommand ButtonCommand
         {
             get
             {
-                return _buttonCommand = (Command)(_buttonCommand ?? new Command(() => ChangeStuff()));
+                return _buttonCommand = (Command)(_buttonCommand ?? new Command((o) => ChangeStuff((Gender)o)));
             }
             set
             {
@@ -25,17 +27,17 @@ namespace TestButtons
             }
         }
 
-        private void ChangeStuff()
+        private void ChangeStuff(Gender gender)
         {
-            if (MaleSelected)
-            {
-                MaleSelected = false;
-                FemaleSelected = true;
-            }
-            else
+            if (gender == Gender.Male)
             {
                 MaleSelected = true;
                 FemaleSelected = false;
+            }
+            else if (gender == Gender.Female)
+            {
+                MaleSelected = false;
+                FemaleSelected = true;
             }
         }
 
